@@ -1,21 +1,47 @@
 .calculadora {
-    background: blueviolet;
+    background: rgb(121, 158, 126);
     width: 200px;
     padding: 10px;
-    color: whitesmoke;
+    border-radius: 10px;
+    box-shadow:5px 5px purple;
+    text-align: center;
+}
+.calculadora input {
+    background: coral;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.calculadora input :focus {
+    background: black;
+    color: pink;
 }
 
-#btnCalc{
-    background: chartreuse;
-    color: black;
-    padding: 7px;
+#btnCalc {
+    background: rgb(107, 13, 170);
+    color: white;
+    padding: 5px;
+    border-radius:10px;
+    margin-top: 10px;
+    
 }
 #btnCalc:hover {
-    background: green;
-    color: whitesmoke;
+    background: rgb(144, 106, 170);
+    color: black;
+    cursor: pointer;
 }
 .spResultado{
-    background: greenyellow;
-    color: black;
-
+    background: black;
+    color: yellow;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 10px;
+}
+.spMes {
+    color:rgb(16, 61, 61);
+    border-width: 1px;
+    border-style:dashed;
+    border-color: rgb(105, 25, 25);
+    text-align: start;
 }
